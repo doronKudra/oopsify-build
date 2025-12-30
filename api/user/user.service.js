@@ -86,7 +86,7 @@ async function add(user) {
                 owner: {
                     username: user.username,
                 },
-                images: [{ url: '/src/assets/images/liked-songs.png' }],
+                images: [{ url: '/assets/images/liked-songs.png' }],
                 _id: 'liked-tracks',
                 type: 'station',
             },

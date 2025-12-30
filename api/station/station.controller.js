@@ -30,7 +30,7 @@ export async function addStation(req, res) {
 		description: body.description,
 		images: body.images?.length
 			? body.images.map(img => ({ ...img }))
-			: [{ url: '/src/assets/images/default-img.png' }],
+			: [{ url: '/assets/images/default-img.png' }],
 		name: body.name,
 		tracks: body.tracks ? [...body.tracks] : [],
 	}
