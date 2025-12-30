@@ -1,7 +1,3 @@
 node_modules
 logs
 .archive
-
-config
-config/index.js
-config/prod.js
